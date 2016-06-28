@@ -2,17 +2,17 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>voice</groupId>
-	<artifactId>voice_register</artifactId>
+	<artifactId>voice_register_web</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>voice_register Maven Webapp</name>
+	<name>voice_register_web Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 
 		<!-- emp_manage_client -->
 		<dependency>
-			<groupId>com.yjcloud</groupId>
-			<artifactId>emp_manage_client</artifactId>
+			<groupId>voice</groupId>
+			<artifactId>voice_register_client</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
@@ -267,6 +267,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>voice_register</finalName>
+		<finalName>voice_register_web</finalName>
 	</build>
 </project>
