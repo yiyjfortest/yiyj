@@ -19,4 +19,5 @@ public class RegisterController {
 	public void register(HttpServletRequest request,String userName,String password) {
 		
 	}
+	
 }
