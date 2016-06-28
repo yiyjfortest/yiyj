@@ -15,4 +15,8 @@ public class RegisterController {
 		return mv;
 	}
 	
+	@RequestMapping(value="/toRegister.do")
+	public void register(HttpServletRequest request,String userName,String password) {
+		
+	}
 }
